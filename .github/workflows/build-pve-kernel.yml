@@ -51,6 +51,7 @@ on:
         description: 'Branch to build'
         required: true
         type: string
+        default: 'master'
       upload-artifacts:
         description: 'Control whether artifacts should be uploaded'
         required: false
